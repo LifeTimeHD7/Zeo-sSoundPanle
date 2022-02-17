@@ -1,6 +1,3 @@
---[[ | By: Zeo/LifeTimeHD7 | ]]--
---[[ | Version: 1.15.1 | ]]--
-
 -- Instances:
 
 local ZeosSoundPanle = Instance.new("ScreenGui")
@@ -341,7 +338,7 @@ Close_2.TextSize = 14.000
 
 -- Scripts:
 
-local function GURRN_fake_script() -- SoundId.Effects&Functions 
+local function OKPKKQ_fake_script() -- SoundId.Effects&Functions 
 	local script = Instance.new('LocalScript', SoundId)
 
 	--[[ Functions ]]--
@@ -401,14 +398,14 @@ local function GURRN_fake_script() -- SoundId.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(GURRN_fake_script)()
-local function WDIOSW_fake_script() -- input_2.Text 
+coroutine.wrap(OKPKKQ_fake_script)()
+local function VGBLSAP_fake_script() -- input_2.Text 
 	local script = Instance.new('LocalScript', input_2)
 
 	script.Parent.Text = game.SoundService.PanleSound.PlaybackSpeed
 end
-coroutine.wrap(WDIOSW_fake_script)()
-local function UIZBZE_fake_script() -- Pitch.Effects&Functions 
+coroutine.wrap(VGBLSAP_fake_script)()
+local function UCRXKM_fake_script() -- Pitch.Effects&Functions 
 	local script = Instance.new('LocalScript', Pitch)
 
 	--[[ Functions ]]--
@@ -463,14 +460,14 @@ local function UIZBZE_fake_script() -- Pitch.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(UIZBZE_fake_script)()
-local function XRXMFX_fake_script() -- input_3.Text 
+coroutine.wrap(UCRXKM_fake_script)()
+local function KRGO_fake_script() -- input_3.Text 
 	local script = Instance.new('LocalScript', input_3)
 
 	script.Parent.Text = game.SoundService.PanleSound.Volume
 end
-coroutine.wrap(XRXMFX_fake_script)()
-local function QYFB_fake_script() -- Volume.Effects&Functions 
+coroutine.wrap(KRGO_fake_script)()
+local function JFJRZ_fake_script() -- Volume.Effects&Functions 
 	local script = Instance.new('LocalScript', Volume)
 
 	--[[ Functions ]]--
@@ -525,14 +522,14 @@ local function QYFB_fake_script() -- Volume.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(QYFB_fake_script)()
-local function HWDP_fake_script() -- input_4.Text 
+coroutine.wrap(JFJRZ_fake_script)()
+local function ZTBQXH_fake_script() -- input_4.Text 
 	local script = Instance.new('LocalScript', input_4)
 
 	script.Parent.Text = game.SoundService.PanleSound.TimePosition
 end
-coroutine.wrap(HWDP_fake_script)()
-local function DWAMEX_fake_script() -- TimePosition.Effects&Functions 
+coroutine.wrap(ZTBQXH_fake_script)()
+local function GKVP_fake_script() -- TimePosition.Effects&Functions 
 	local script = Instance.new('LocalScript', TimePosition)
 
 	--[[ Functions ]]--
@@ -587,8 +584,8 @@ local function DWAMEX_fake_script() -- TimePosition.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(DWAMEX_fake_script)()
-local function SOBOTCM_fake_script() -- Effects.Effects&Functions 
+coroutine.wrap(GKVP_fake_script)()
+local function JPBFWLQ_fake_script() -- Effects.Effects&Functions 
 	local script = Instance.new('LocalScript', Effects)
 
 	--[[ Functions ]]--
@@ -643,8 +640,8 @@ local function SOBOTCM_fake_script() -- Effects.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(SOBOTCM_fake_script)()
-local function HDDW_fake_script() -- Effect.Effects&Functions 
+coroutine.wrap(JPBFWLQ_fake_script)()
+local function ZESTT_fake_script() -- Effect.Effects&Functions 
 	local script = Instance.new('LocalScript', Effect)
 
 	--[[ Functions ]]--
@@ -699,8 +696,8 @@ local function HDDW_fake_script() -- Effect.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(HDDW_fake_script)()
-local function OGTS_fake_script() -- Effects_2.Effects&Functions 
+coroutine.wrap(ZESTT_fake_script)()
+local function QJLMB_fake_script() -- Effects_2.Effects&Functions 
 	local script = Instance.new('LocalScript', Effects_2)
 
 	--[[ Functions ]]--
@@ -759,8 +756,8 @@ local function OGTS_fake_script() -- Effects_2.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(OGTS_fake_script)()
-local function BXXUKN_fake_script() -- Effect_2.Effects&Functions 
+coroutine.wrap(QJLMB_fake_script)()
+local function LZXL_fake_script() -- Effect_2.Effects&Functions 
 	local script = Instance.new('LocalScript', Effect_2)
 
 	--[[ Functions ]]--
@@ -815,8 +812,8 @@ local function BXXUKN_fake_script() -- Effect_2.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(BXXUKN_fake_script)()
-local function THWKW_fake_script() -- Effects_3.Effects&Functions 
+coroutine.wrap(LZXL_fake_script)()
+local function VUHF_fake_script() -- Effects_3.Effects&Functions 
 	local script = Instance.new('LocalScript', Effects_3)
 
 	--[[ Functions ]]--
@@ -875,8 +872,8 @@ local function THWKW_fake_script() -- Effects_3.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(THWKW_fake_script)()
-local function IMGGOM_fake_script() -- Effect_3.Effects&Functions 
+coroutine.wrap(VUHF_fake_script)()
+local function BQJO_fake_script() -- Effect_3.Effects&Functions 
 	local script = Instance.new('LocalScript', Effect_3)
 
 	--[[ Functions ]]--
@@ -931,8 +928,8 @@ local function IMGGOM_fake_script() -- Effect_3.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(IMGGOM_fake_script)()
-local function FKPRU_fake_script() -- Effects_4.Effects&Functions 
+coroutine.wrap(BQJO_fake_script)()
+local function QHBFI_fake_script() -- Effects_4.Effects&Functions 
 	local script = Instance.new('LocalScript', Effects_4)
 
 	--[[ Functions ]]--
@@ -991,8 +988,8 @@ local function FKPRU_fake_script() -- Effects_4.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(FKPRU_fake_script)()
-local function QAMSWO_fake_script() -- Effect_4.Effects&Functions 
+coroutine.wrap(QHBFI_fake_script)()
+local function DWLKPL_fake_script() -- Effect_4.Effects&Functions 
 	local script = Instance.new('LocalScript', Effect_4)
 
 	--[[ Functions ]]--
@@ -1047,8 +1044,8 @@ local function QAMSWO_fake_script() -- Effect_4.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(QAMSWO_fake_script)()
-local function LAOLAIV_fake_script() -- Effects_5.Effects&Functions 
+coroutine.wrap(DWLKPL_fake_script)()
+local function JYAG_fake_script() -- Effects_5.Effects&Functions 
 	local script = Instance.new('LocalScript', Effects_5)
 
 	--[[ Functions ]]--
@@ -1107,8 +1104,8 @@ local function LAOLAIV_fake_script() -- Effects_5.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(LAOLAIV_fake_script)()
-local function FOYWSV_fake_script() -- Close.Effects&Functions 
+coroutine.wrap(JYAG_fake_script)()
+local function NQDXAS_fake_script() -- Close.Effects&Functions 
 	local script = Instance.new('LocalScript', Close)
 
 	--[[ Functions ]]--
@@ -1163,8 +1160,8 @@ local function FOYWSV_fake_script() -- Close.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(FOYWSV_fake_script)()
-local function RBDQMU_fake_script() -- Main.Dragging 
+coroutine.wrap(NQDXAS_fake_script)()
+local function DQZEGK_fake_script() -- Main.Dragging 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService('UserInputService')
@@ -1202,8 +1199,8 @@ local function RBDQMU_fake_script() -- Main.Dragging
 		end
 	end)
 end
-coroutine.wrap(RBDQMU_fake_script)()
-local function GFJU_fake_script() -- Stop.Effects&Functions 
+coroutine.wrap(DQZEGK_fake_script)()
+local function PDGKLAD_fake_script() -- Stop.Effects&Functions 
 	local script = Instance.new('LocalScript', Stop)
 
 	--[[ Functions ]]--
@@ -1258,8 +1255,8 @@ local function GFJU_fake_script() -- Stop.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(GFJU_fake_script)()
-local function EQXHCPO_fake_script() -- Continue.Effects&Functions 
+coroutine.wrap(PDGKLAD_fake_script)()
+local function DGBFF_fake_script() -- Continue.Effects&Functions 
 	local script = Instance.new('LocalScript', Continue)
 
 	--[[ Functions ]]--
@@ -1314,8 +1311,8 @@ local function EQXHCPO_fake_script() -- Continue.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(EQXHCPO_fake_script)()
-local function TASN_fake_script() -- Loop.Effects&Functions 
+coroutine.wrap(DGBFF_fake_script)()
+local function NAKZ_fake_script() -- Loop.Effects&Functions 
 	local script = Instance.new('LocalScript', Loop)
 
 	--[[ Functions ]]--
@@ -1370,8 +1367,8 @@ local function TASN_fake_script() -- Loop.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(TASN_fake_script)()
-local function ZRREOQB_fake_script() -- Close_2.Effects&Functions 
+coroutine.wrap(NAKZ_fake_script)()
+local function GGYUC_fake_script() -- Close_2.Effects&Functions 
 	local script = Instance.new('LocalScript', Close_2)
 
 	--[[ Functions ]]--
@@ -1426,8 +1423,8 @@ local function ZRREOQB_fake_script() -- Close_2.Effects&Functions
 		script.Parent.input.BorderSizePixel = 1
 	end)
 end
-coroutine.wrap(ZRREOQB_fake_script)()
-local function XZAQNO_fake_script() -- ZeosSoundPanle.Sound 
+coroutine.wrap(GGYUC_fake_script)()
+local function RFOBG_fake_script() -- ZeosSoundPanle.Sound 
 	local script = Instance.new('LocalScript', ZeosSoundPanle)
 
 	local PanleSound = Instance.new("Sound")
@@ -1438,8 +1435,8 @@ local function XZAQNO_fake_script() -- ZeosSoundPanle.Sound
 	PanleSound.Looped = false
 	PanleSound.SoundId ="rbxassetid://"..script.Parent.Main.SoundId.input.Text..""
 end
-coroutine.wrap(XZAQNO_fake_script)()
-local function DLPFZHM_fake_script() -- ZeosSoundPanle.HowTo 
+coroutine.wrap(RFOBG_fake_script)()
+local function HRAUH_fake_script() -- ZeosSoundPanle.HowTo 
 	local script = Instance.new('LocalScript', ZeosSoundPanle)
 
 	print("|How to Use Zeo's SoundPanle|")
@@ -1476,8 +1473,8 @@ local function DLPFZHM_fake_script() -- ZeosSoundPanle.HowTo
 	)
 	
 end
-coroutine.wrap(DLPFZHM_fake_script)()
-local function RSTDHY_fake_script() -- ZeosSoundPanle.kb 
+coroutine.wrap(HRAUH_fake_script)()
+local function NVPICZK_fake_script() -- ZeosSoundPanle.kb 
 	local script = Instance.new('LocalScript', ZeosSoundPanle)
 
 	local MainFrame = script.Parent.Main
@@ -1489,7 +1486,7 @@ local function RSTDHY_fake_script() -- ZeosSoundPanle.kb
 	local UIS = game:GetService("UserInputService")
 	
 	UIS.InputBegan:Connect(function(KeyCode)
-		if KeyCode.KeyCode == Enum.KeyCode.F7 then
+		if KeyCode.KeyCode == Enum.KeyCode.F8 then
 			if Opened then
 				MainFrame:TweenPosition((PositionClosed), "InOut", "Quint")
 				Opened = false
@@ -1500,4 +1497,4 @@ local function RSTDHY_fake_script() -- ZeosSoundPanle.kb
 		end
 	end)
 end
-coroutine.wrap(RSTDHY_fake_script)()
+coroutine.wrap(NVPICZK_fake_script)()
