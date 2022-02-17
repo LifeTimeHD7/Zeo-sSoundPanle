@@ -1,0 +1,1503 @@
+--[[ | By: Zeo/LifeTimeHD7 | ]]--
+--[[ | Version: 1.15.1 | ]]--
+
+-- Instances:
+
+local ZeosSoundPanle = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local SoundId = Instance.new("TextButton")
+local input = Instance.new("TextBox")
+local Title = Instance.new("TextLabel")
+local Pitch = Instance.new("TextButton")
+local input_2 = Instance.new("TextBox")
+local Volume = Instance.new("TextButton")
+local input_3 = Instance.new("TextBox")
+local TimePosition = Instance.new("TextButton")
+local input_4 = Instance.new("TextBox")
+local Effects = Instance.new("TextButton")
+local PanleEffects = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Effect = Instance.new("TextButton")
+local Effects_2 = Instance.new("TextButton")
+local Effect_2 = Instance.new("TextButton")
+local Effects_3 = Instance.new("TextButton")
+local Effect_3 = Instance.new("TextButton")
+local Effects_4 = Instance.new("TextButton")
+local Effect_4 = Instance.new("TextButton")
+local Effects_5 = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Stop = Instance.new("TextButton")
+local Continue = Instance.new("TextButton")
+local Loop = Instance.new("TextButton")
+local Close_2 = Instance.new("TextButton")
+
+--Properties:
+
+ZeosSoundPanle.Name = "Zeo's - Sound Panle"
+ZeosSoundPanle.Parent = game.CoreGui
+ZeosSoundPanle.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ZeosSoundPanle
+Main.BackgroundColor3 = Color3.fromRGB(24, 26, 36)
+Main.BackgroundTransparency = 0.300
+Main.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Main.Position = UDim2.new(0.375, 0, -1.39400005, 0)
+Main.Size = UDim2.new(0, 315, 0, 250)
+
+SoundId.Name = "SoundId"
+SoundId.Parent = Main
+SoundId.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+SoundId.BackgroundTransparency = 0.500
+SoundId.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SoundId.Position = UDim2.new(0.701772928, 0, 0.127973244, 0)
+SoundId.Size = UDim2.new(0, 81, 0, 19)
+SoundId.Font = Enum.Font.SourceSans
+SoundId.Text = "UPDATE"
+SoundId.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoundId.TextSize = 14.000
+
+input.Name = "input"
+input.Parent = SoundId
+input.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+input.BackgroundTransparency = 0.500
+input.BorderColor3 = Color3.fromRGB(255, 255, 255)
+input.Position = UDim2.new(-2.54320979, 0, 0, 0)
+input.Size = UDim2.new(0, 200, 0, 19)
+input.Font = Enum.Font.SourceSans
+input.Text = "SoundId"
+input.TextColor3 = Color3.fromRGB(255, 255, 255)
+input.TextSize = 14.000
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Title.BackgroundTransparency = 0.500
+Title.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Title.Size = UDim2.new(0, 315, 0, 20)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Zeo's - Music Panle"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+Pitch.Name = "Pitch"
+Pitch.Parent = Main
+Pitch.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Pitch.BackgroundTransparency = 0.500
+Pitch.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Pitch.Position = UDim2.new(0.701772928, 0, 0.231363699, 0)
+Pitch.Size = UDim2.new(0, 81, 0, 19)
+Pitch.Font = Enum.Font.SourceSans
+Pitch.Text = "UPDATE"
+Pitch.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pitch.TextSize = 14.000
+
+input_2.Name = "input"
+input_2.Parent = Pitch
+input_2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+input_2.BackgroundTransparency = 0.500
+input_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+input_2.Position = UDim2.new(-2.54320979, 0, 0, 0)
+input_2.Size = UDim2.new(0, 200, 0, 19)
+input_2.Font = Enum.Font.SourceSans
+input_2.Text = "Pitch"
+input_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+input_2.TextSize = 14.000
+
+Volume.Name = "Volume"
+Volume.Parent = Main
+Volume.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Volume.BackgroundTransparency = 0.500
+Volume.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Volume.Position = UDim2.new(0.701772928, 0, 0.332440436, 0)
+Volume.Size = UDim2.new(0, 81, 0, 19)
+Volume.Font = Enum.Font.SourceSans
+Volume.Text = "UPDATE"
+Volume.TextColor3 = Color3.fromRGB(255, 255, 255)
+Volume.TextSize = 14.000
+
+input_3.Name = "input"
+input_3.Parent = Volume
+input_3.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+input_3.BackgroundTransparency = 0.500
+input_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+input_3.Position = UDim2.new(-2.54320979, 0, 0, 0)
+input_3.Size = UDim2.new(0, 200, 0, 19)
+input_3.Font = Enum.Font.SourceSans
+input_3.Text = "Volume"
+input_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+input_3.TextSize = 14.000
+
+TimePosition.Name = "TimePosition"
+TimePosition.Parent = Main
+TimePosition.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+TimePosition.BackgroundTransparency = 0.500
+TimePosition.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TimePosition.Position = UDim2.new(0.701772928, 0, 0.432786614, 0)
+TimePosition.Size = UDim2.new(0, 81, 0, 19)
+TimePosition.Font = Enum.Font.SourceSans
+TimePosition.Text = "UPDATE"
+TimePosition.TextColor3 = Color3.fromRGB(255, 255, 255)
+TimePosition.TextSize = 14.000
+
+input_4.Name = "input"
+input_4.Parent = TimePosition
+input_4.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+input_4.BackgroundTransparency = 0.500
+input_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+input_4.Position = UDim2.new(-2.54320979, 0, 0, 0)
+input_4.Size = UDim2.new(0, 200, 0, 19)
+input_4.Font = Enum.Font.SourceSans
+input_4.Text = "TimePosition"
+input_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+input_4.TextSize = 14.000
+
+Effects.Name = "Effects"
+Effects.Parent = Main
+Effects.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effects.BackgroundTransparency = 0.500
+Effects.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effects.Position = UDim2.new(0.0478046723, 0, 0.83278662, 0)
+Effects.Size = UDim2.new(0, 287, 0, 19)
+Effects.Font = Enum.Font.SourceSans
+Effects.Text = "Effects"
+Effects.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effects.TextSize = 14.000
+
+PanleEffects.Name = "PanleEffects"
+PanleEffects.Parent = Main
+PanleEffects.BackgroundColor3 = Color3.fromRGB(24, 26, 36)
+PanleEffects.BackgroundTransparency = 0.300
+PanleEffects.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PanleEffects.Position = UDim2.new(1.01952147, 0, -0.000189498067, 0)
+PanleEffects.Size = UDim2.new(0, 315, 0, 250)
+PanleEffects.Visible = false
+
+TextLabel.Parent = PanleEffects
+TextLabel.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BackgroundTransparency = 0.500
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Size = UDim2.new(0, 315, 0, 20)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "PanleSound - Effects"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+Effect.Name = "Effect"
+Effect.Parent = PanleEffects
+Effect.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effect.BackgroundTransparency = 0.500
+Effect.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effect.Position = UDim2.new(0.755741179, 0, 0.124786623, 0)
+Effect.Size = UDim2.new(0, 65, 0, 19)
+Effect.Font = Enum.Font.SourceSans
+Effect.Text = "Disable"
+Effect.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect.TextSize = 14.000
+
+Effects_2.Name = "Effects"
+Effects_2.Parent = Effect
+Effects_2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effects_2.BackgroundTransparency = 0.500
+Effects_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effects_2.Position = UDim2.new(-3.46623683, 0, -0.0331081077, 0)
+Effects_2.Size = UDim2.new(0, 219, 0, 19)
+Effects_2.Font = Enum.Font.SourceSans
+Effects_2.Text = "ReverbSoundEffect | RSE"
+Effects_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effects_2.TextSize = 14.000
+
+Effect_2.Name = "Effect"
+Effect_2.Parent = PanleEffects
+Effect_2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effect_2.BackgroundTransparency = 0.500
+Effect_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effect_2.Position = UDim2.new(0.755741179, 0, 0.228786618, 0)
+Effect_2.Size = UDim2.new(0, 65, 0, 19)
+Effect_2.Font = Enum.Font.SourceSans
+Effect_2.Text = "Disable"
+Effect_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_2.TextSize = 14.000
+
+Effects_3.Name = "Effects"
+Effects_3.Parent = Effect_2
+Effects_3.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effects_3.BackgroundTransparency = 0.500
+Effects_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effects_3.Position = UDim2.new(-3.46623683, 0, -0.0331081077, 0)
+Effects_3.Size = UDim2.new(0, 219, 0, 19)
+Effects_3.Font = Enum.Font.SourceSans
+Effects_3.Text = "EqualizerSoundEffect | ESE"
+Effects_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effects_3.TextSize = 14.000
+
+Effect_3.Name = "Effect"
+Effect_3.Parent = PanleEffects
+Effect_3.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effect_3.BackgroundTransparency = 0.500
+Effect_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effect_3.Position = UDim2.new(0.755741179, 0, 0.328786612, 0)
+Effect_3.Size = UDim2.new(0, 65, 0, 19)
+Effect_3.Font = Enum.Font.SourceSans
+Effect_3.Text = "Disable"
+Effect_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_3.TextSize = 14.000
+
+Effects_4.Name = "Effects"
+Effects_4.Parent = Effect_3
+Effects_4.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effects_4.BackgroundTransparency = 0.500
+Effects_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effects_4.Position = UDim2.new(-3.46623683, 0, -0.0331081077, 0)
+Effects_4.Size = UDim2.new(0, 219, 0, 19)
+Effects_4.Font = Enum.Font.SourceSans
+Effects_4.Text = "DistortionSoundEffect | DSE"
+Effects_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effects_4.TextSize = 14.000
+
+Effect_4.Name = "Effect"
+Effect_4.Parent = PanleEffects
+Effect_4.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effect_4.BackgroundTransparency = 0.500
+Effect_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effect_4.Position = UDim2.new(0.755741179, 0, 0.432786614, 0)
+Effect_4.Size = UDim2.new(0, 65, 0, 19)
+Effect_4.Font = Enum.Font.SourceSans
+Effect_4.Text = "Disable"
+Effect_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effect_4.TextSize = 14.000
+
+Effects_5.Name = "Effects"
+Effects_5.Parent = Effect_4
+Effects_5.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Effects_5.BackgroundTransparency = 0.500
+Effects_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Effects_5.Position = UDim2.new(-3.46623683, 0, -0.0331081077, 0)
+Effects_5.Size = UDim2.new(0, 219, 0, 19)
+Effects_5.Font = Enum.Font.SourceSans
+Effects_5.Text = "EchoSoundEffect | CSE"
+Effects_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Effects_5.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = PanleEffects
+Close.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Close.BackgroundTransparency = 0.500
+Close.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Close.Position = UDim2.new(0.930344343, 0, 0.000189453131, 0)
+Close.Size = UDim2.new(0, 21, 0, 20)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 14.000
+
+Stop.Name = "Stop"
+Stop.Parent = Main
+Stop.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Stop.BackgroundTransparency = 0.500
+Stop.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Stop.Position = UDim2.new(0.0478046723, 0, 0.532786608, 0)
+Stop.Size = UDim2.new(0, 287, 0, 19)
+Stop.Font = Enum.Font.SourceSans
+Stop.Text = "Sound: Stop"
+Stop.TextColor3 = Color3.fromRGB(255, 255, 255)
+Stop.TextSize = 14.000
+
+Continue.Name = "Continue"
+Continue.Parent = Main
+Continue.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Continue.BackgroundTransparency = 0.500
+Continue.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Continue.Position = UDim2.new(0.0478046723, 0, 0.632786632, 0)
+Continue.Size = UDim2.new(0, 287, 0, 19)
+Continue.Font = Enum.Font.SourceSans
+Continue.Text = "Sound: Continue"
+Continue.TextColor3 = Color3.fromRGB(255, 255, 255)
+Continue.TextSize = 14.000
+
+Loop.Name = "Loop"
+Loop.Parent = Main
+Loop.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Loop.BackgroundTransparency = 0.500
+Loop.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Loop.Position = UDim2.new(0.0478046723, 0, 0.732786655, 0)
+Loop.Size = UDim2.new(0, 287, 0, 19)
+Loop.Font = Enum.Font.SourceSans
+Loop.Text = "Sound: Loop"
+Loop.TextColor3 = Color3.fromRGB(255, 255, 255)
+Loop.TextSize = 14.000
+
+Close_2.Name = "Close"
+Close_2.Parent = Main
+Close_2.BackgroundColor3 = Color3.fromRGB(27, 42, 53)
+Close_2.BackgroundTransparency = 0.500
+Close_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.Position = UDim2.new(0.930344343, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 21, 0, 20)
+Close_2.Font = Enum.Font.SourceSans
+Close_2.Text = "X"
+Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.TextSize = 14.000
+
+-- Scripts:
+
+local function GURRN_fake_script() -- SoundId.Effects&Functions 
+	local script = Instance.new('LocalScript', SoundId)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+			wait(1)
+			game.SoundService.PanleSound:Play()
+		end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+			game.SoundService.PanleSound.SoundId ="rbxassetid://"..script.Parent.input.Text..""
+		end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(GURRN_fake_script)()
+local function WDIOSW_fake_script() -- input_2.Text 
+	local script = Instance.new('LocalScript', input_2)
+
+	script.Parent.Text = game.SoundService.PanleSound.PlaybackSpeed
+end
+coroutine.wrap(WDIOSW_fake_script)()
+local function UIZBZE_fake_script() -- Pitch.Effects&Functions 
+	local script = Instance.new('LocalScript', Pitch)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+			game.SoundService.PanleSound.PlaybackSpeed =""..script.Parent.input.Text..""
+		end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(UIZBZE_fake_script)()
+local function XRXMFX_fake_script() -- input_3.Text 
+	local script = Instance.new('LocalScript', input_3)
+
+	script.Parent.Text = game.SoundService.PanleSound.Volume
+end
+coroutine.wrap(XRXMFX_fake_script)()
+local function QYFB_fake_script() -- Volume.Effects&Functions 
+	local script = Instance.new('LocalScript', Volume)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+			game.SoundService.PanleSound.Volume =""..script.Parent.input.Text..""
+		end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(QYFB_fake_script)()
+local function HWDP_fake_script() -- input_4.Text 
+	local script = Instance.new('LocalScript', input_4)
+
+	script.Parent.Text = game.SoundService.PanleSound.TimePosition
+end
+coroutine.wrap(HWDP_fake_script)()
+local function DWAMEX_fake_script() -- TimePosition.Effects&Functions 
+	local script = Instance.new('LocalScript', TimePosition)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+			game.SoundService.PanleSound.TimePosition =""..script.Parent.input.Text..""
+		end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(DWAMEX_fake_script)()
+local function SOBOTCM_fake_script() -- Effects.Effects&Functions 
+	local script = Instance.new('LocalScript', Effects)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.PanleEffects.Visible = true
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(SOBOTCM_fake_script)()
+local function HDDW_fake_script() -- Effect.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.PanleSound.RSE:Destroy()
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(HDDW_fake_script)()
+local function OGTS_fake_script() -- Effects_2.Effects&Functions 
+	local script = Instance.new('LocalScript', Effects_2)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local RSE = Instance.new("ReverbSoundEffect")
+		
+		wait(1)
+		RSE.Parent = game.SoundService.PanleSound
+		RSE.Name ="RSE"
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(OGTS_fake_script)()
+local function BXXUKN_fake_script() -- Effect_2.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_2)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.PanleSound.ESE:Destroy()
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(BXXUKN_fake_script)()
+local function THWKW_fake_script() -- Effects_3.Effects&Functions 
+	local script = Instance.new('LocalScript', Effects_3)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local ESE = Instance.new("EqualizerSoundEffect")
+		
+		wait(1)
+		ESE.Parent = game.SoundService.PanleSound
+		ESE.Name ="ESE"
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(THWKW_fake_script)()
+local function IMGGOM_fake_script() -- Effect_3.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_3)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.PanleSound.DSE:Destroy()
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(IMGGOM_fake_script)()
+local function FKPRU_fake_script() -- Effects_4.Effects&Functions 
+	local script = Instance.new('LocalScript', Effects_4)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local DSE = Instance.new("DistortionSoundEffect")
+		
+		wait(1)
+		DSE.Parent = game.SoundService.PanleSound
+		DSE.Name ="DSE"
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(FKPRU_fake_script)()
+local function QAMSWO_fake_script() -- Effect_4.Effects&Functions 
+	local script = Instance.new('LocalScript', Effect_4)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.PanleSound.CSE:Destroy()
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(QAMSWO_fake_script)()
+local function LAOLAIV_fake_script() -- Effects_5.Effects&Functions 
+	local script = Instance.new('LocalScript', Effects_5)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		local CSE = Instance.new("EchoSoundEffect")
+		
+		wait(1)
+		CSE.Parent = game.SoundService.PanleSound
+		CSE.Name ="CSE"
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(LAOLAIV_fake_script)()
+local function FOYWSV_fake_script() -- Close.Effects&Functions 
+	local script = Instance.new('LocalScript', Close)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 98, 98)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 98, 98)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(FOYWSV_fake_script)()
+local function RBDQMU_fake_script() -- Main.Dragging 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(RBDQMU_fake_script)()
+local function GFJU_fake_script() -- Stop.Effects&Functions 
+	local script = Instance.new('LocalScript', Stop)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.PanleSound.Playing = false
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(GFJU_fake_script)()
+local function EQXHCPO_fake_script() -- Continue.Effects&Functions 
+	local script = Instance.new('LocalScript', Continue)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.PanleSound.Playing = true
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(EQXHCPO_fake_script)()
+local function TASN_fake_script() -- Loop.Effects&Functions 
+	local script = Instance.new('LocalScript', Loop)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.SoundService.PanleSound.Playing = true
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(TASN_fake_script)()
+local function ZRREOQB_fake_script() -- Close_2.Effects&Functions 
+	local script = Instance.new('LocalScript', Close_2)
+
+	--[[ Functions ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+	end)
+	
+	----------------------------------------------------------
+	
+	--[[ Effects ]]--
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderSizePixel = 1
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 98, 98)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.BorderColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 98, 98)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255)
+	end)
+	
+	----------------------------------------------------------
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.input.BorderSizePixel = 2
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.input.BorderSizePixel = 1
+	end)
+end
+coroutine.wrap(ZRREOQB_fake_script)()
+local function XZAQNO_fake_script() -- ZeosSoundPanle.Sound 
+	local script = Instance.new('LocalScript', ZeosSoundPanle)
+
+	local PanleSound = Instance.new("Sound")
+	
+	PanleSound.Parent = game.SoundService
+	PanleSound.Name ="PanleSound"
+	PanleSound.Playing = false
+	PanleSound.Looped = false
+	PanleSound.SoundId ="rbxassetid://"..script.Parent.Main.SoundId.input.Text..""
+end
+coroutine.wrap(XZAQNO_fake_script)()
+local function DLPFZHM_fake_script() -- ZeosSoundPanle.HowTo 
+	local script = Instance.new('LocalScript', ZeosSoundPanle)
+
+	print("|How to Use Zeo's SoundPanle|")
+	wait(0.01)
+	print("")
+	wait()
+	print("| input any Sound id into SoundId to Start Playing The Music | input a Value into Pitch to Give it a Specific Speed |")
+	wait()
+	print("| input a Value into Volume to Give it a Specific Volume | input a Value into TimePosition to Skip Parts |")
+	wait()
+	print("| By: Zeo | Powered by: Core Sounds | Version: 1.15.1 |")
+	wait()
+	print("        ")
+	wait(1)
+	print(
+		"| Created Date: 2/17/2022 |",
+		"| Functions: Enabled |",
+		"| PanleSound: Enabled |",
+		
+		"| Commands: Disabled |",
+		"| Cords: Disabled |",
+		"| Social Links: Disabled |",
+		"| Html Request: Disabled |",
+		
+		"| LocalScripts: Enabled |",
+		
+		"| Hight Suspicious 'Anti-Cheat','Clevear Bot' Detacted |",
+		
+		warn("| 'Anti-Cheat','Cleaver Bot': Destroy() |"),
+		wait(0),
+		"| Success! |",
+		
+		"| End |"
+	)
+	
+end
+coroutine.wrap(DLPFZHM_fake_script)()
+local function RSTDHY_fake_script() -- ZeosSoundPanle.kb 
+	local script = Instance.new('LocalScript', ZeosSoundPanle)
+
+	local MainFrame = script.Parent.Main
+	local Opened = false
+	
+	local PositionClosed = UDim2.new(0.375, 0,-1.394, 0)
+	local PositionOpened = UDim2.new(0.375, 0,0.408, 0)
+	
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.F7 then
+			if Opened then
+				MainFrame:TweenPosition((PositionClosed), "InOut", "Quint")
+				Opened = false
+			else
+				MainFrame:TweenPosition((PositionOpened), "InOut", "Quart")
+				Opened = true
+			end
+		end
+	end)
+end
+coroutine.wrap(RSTDHY_fake_script)()
